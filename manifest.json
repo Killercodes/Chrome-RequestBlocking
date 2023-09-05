@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "CSRBv3",
+    "version": "3.1",
+    "description": "Static Request Blocking Extension (c) killercodes.github.io",
+    "permissions": ["webRequest", "declarativeNetRequest","declarativeNetRequestFeedback"],
+	"host_permissions" :["http://*/*", "https://*/*"], 
+
+    "declarative_net_request" : {
+        "rule_resources" : [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules_1.json"
+        }]
+    }
+}
