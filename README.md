@@ -1,2 +1,2 @@
-# Chrome-RequestBlocking
-Block chrome request
+# Chrome Dynamic RequestBlocking
+Block chrome request with Extension dynamically
